@@ -343,7 +343,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2b83d36eb4a389347b02ececd7f3d702, type: 3}
   - {fileID: 21300000, guid: 2e270bbdce1b8c748b291af36e69ca4d, type: 3}
   - {fileID: 21300000, guid: f02973389db04a547b4ce6da3f789cb6, type: 3}
-  - {fileID: 21300000, guid: 84405976c0b15ad4d8224fea1bf56b79, type: 3}
   walkFrames:
   - {fileID: 21300000, guid: 70820e771581e9a4293cf794e71550a4, type: 3}
   - {fileID: 21300000, guid: 8d49fe018b41619419edf91fc25fd10e, type: 3}
@@ -355,6 +354,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3e2a0a1b9f0946bf866c4ca72432f6b7, type: 3}
   - {fileID: 21300000, guid: 42f217bd335b47b7bd93e67102dc349c, type: 3}
   - {fileID: 21300000, guid: 590934d99fdb440faaa6cd8bc36140df, type: 3}
+  - {fileID: 21300000, guid: c5ec834229d802d498c294260f0be233, type: 3}
+  - {fileID: 21300000, guid: 636b5f0450a52da4bac86dd09e6f62c8, type: 3}
   attack2Frames:
   - {fileID: 21300000, guid: 56e0ca3da8f044d18d4d1e87ee3ff388, type: 3}
   - {fileID: 21300000, guid: d4b5b1be4b2f4945bed29169a1da97ce, type: 3}
@@ -362,6 +363,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9c75ef4c411748c8b554ee32a1f5180f, type: 3}
   - {fileID: 21300000, guid: 41bbfe0ef5de4b6485f5bcaefb720efc, type: 3}
   - {fileID: 21300000, guid: c5adafd2886445ae9a5db50e8f0f8725, type: 3}
+  - {fileID: 21300000, guid: f002a2da29fa07a40b5390534be6335e, type: 3}
   hitFrames:
   - {fileID: 21300000, guid: 8b675f076ab9e1446925d48fe3c7f467, type: 3}
   - {fileID: 21300000, guid: 019310e61a4b4fc498a517e2997f9ed7, type: 3}
@@ -383,13 +385,13 @@ MonoBehaviour:
   attack1EffectStartFrame: 1
   attack1EffectOffset: {x: 1.85, y: 2.6, z: 0}
   attack1EffectScale: {x: 0.9, y: 0.9, z: 1}
-  attack1DamageFrame: 1
+  attack1DamageFrame: 2
   attack2EffectRenderer: {fileID: 2680925471173150453}
   attack2EffectFrames: []
   attack2EffectStartFrame: 1
   attack2EffectOffset: {x: -3.62, y: 2.2, z: 0}
   attack2EffectScale: {x: 0.4, y: 0.4, z: 1}
-  attack2DamageFrame: 1
+  attack2DamageFrame: 3
   attack1Sfx:
     clip: {fileID: 8300000, guid: 50419ca7116ccb94a9ba71f41db6fca0, type: 3}
     volume: 1
