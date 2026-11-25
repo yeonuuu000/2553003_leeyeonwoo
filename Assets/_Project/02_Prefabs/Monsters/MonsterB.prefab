@@ -381,19 +381,27 @@ MonoBehaviour:
   hitFrameTimes: []
   deathFrameTimes: []
   attack1EffectRenderer: {fileID: 8064149804710447461}
-  attack1EffectFrames: []
-  attack1EffectStartFrame: 1
-  attack1EffectOffset: {x: 1.85, y: 2.6, z: 0}
+  attack1EffectFrames:
+  - {fileID: 21300000, guid: 87f750a6de2f3f645bdac34a6652db4d, type: 3}
+  - {fileID: 21300000, guid: 764680546e160784abebe20710349412, type: 3}
+  - {fileID: 21300000, guid: 5d39a9910805b2d4cacf9dbc85c0606b, type: 3}
+  - {fileID: 21300000, guid: e34c8513d07e9c84ea16c324ea095e6c, type: 3}
+  attack1EffectStartFrame: 2
+  attack1EffectOffset: {x: -1.7, y: 2.6, z: 0}
   attack1EffectScale: {x: 0.9, y: 0.9, z: 1}
   attack1DamageFrame: 2
   attack2EffectRenderer: {fileID: 2680925471173150453}
-  attack2EffectFrames: []
-  attack2EffectStartFrame: 1
-  attack2EffectOffset: {x: -3.62, y: 2.2, z: 0}
+  attack2EffectFrames:
+  - {fileID: 21300000, guid: d6759c0dd4348ef43be48615c9292674, type: 3}
+  - {fileID: 21300000, guid: 0845730eccfdba442b0c30b0b11d1718, type: 3}
+  - {fileID: 21300000, guid: 6a08dce2c91df4e4e8b08438e98e8291, type: 3}
+  - {fileID: 21300000, guid: cfcca91f464e8b84393b476a16e2e55f, type: 3}
+  attack2EffectStartFrame: 3
+  attack2EffectOffset: {x: -0.68, y: 2.2, z: 0}
   attack2EffectScale: {x: 0.4, y: 0.4, z: 1}
   attack2DamageFrame: 3
   attack1Sfx:
-    clip: {fileID: 8300000, guid: 50419ca7116ccb94a9ba71f41db6fca0, type: 3}
+    clip: {fileID: 8300000, guid: 43913975e556de349bab2962cf0a017a, type: 3}
     volume: 1
     pitchVariance: 0.05
   attack2Sfx:
@@ -405,6 +413,6 @@ MonoBehaviour:
     volume: 1
     pitchVariance: 0.05
   deathSfx:
-    clip: {fileID: 8300000, guid: d89d168c979707443a9edd7109f977ee, type: 3}
+    clip: {fileID: 8300000, guid: ecdec58ff52c97547ad9fb743d4fdc9b, type: 3}
     volume: 1
     pitchVariance: 0.05
